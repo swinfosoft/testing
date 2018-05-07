@@ -41,7 +41,7 @@ WebDriver driver;
 	
 	@Test(priority=2)
 	public void TestCase2(){
-	AssertJUnit.assertEquals(driver.getTitle(), "Pie Register � Login | DevShala Online Shopping");
+	AssertJUnit.assertEquals(driver.getTitle(), "Pie Register - Login | DevShala Online Shopping");
 	driver.manage().window().maximize();
 	}
 	
