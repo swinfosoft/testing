@@ -19,10 +19,10 @@ WebDriver driver;
 	
 	@BeforeTest
     public void setup(){
-	 System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver");
-    driver= new FirefoxDriver();
-    //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
-	//driver = new ChromeDriver();
+	 //System.setProperty("webdriver.gecko.driver", "src/test/resources/geckodriver");
+    //driver= new FirefoxDriver();
+    System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
+	driver = new ChromeDriver();
 		
 	}
 	
